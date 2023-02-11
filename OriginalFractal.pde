@@ -13,5 +13,5 @@ public void drawCircles(int x, int y, int rad){
   stroke((float)Math.random()*255, (float)Math.random()*255, (float)Math.random()*255);
   ellipse(x/2, y/2, rad, rad);
 }
-public void keyPressed(){
+public void keyPressed(){ //reverse and forward with pattern using arrows?
 }
