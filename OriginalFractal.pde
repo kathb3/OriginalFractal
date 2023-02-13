@@ -1,6 +1,8 @@
 public void setup(){
   size(800, 800);
   background(0,0,0);
+}
+public void draw(){
   drawCircles(width, height, width);
 }
 public void drawCircles(int x, int y, int rad){
