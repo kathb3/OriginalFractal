@@ -9,8 +9,8 @@ public void drawCircles(int x, int y, int rad){
     drawCircles(x, y - rad/2, rad/2);
     drawCircles(x + 2*rad/3, y + rad/3, rad/2);
     drawCircles(x - 2*rad/3, y + rad/3, rad/2);
+    stroke((float)Math.random()*255, (float)Math.random()*255, (float)Math.random()*255);
   }
-  stroke((float)Math.random()*255, (float)Math.random()*255, (float)Math.random()*255);
   ellipse(x/2, y/2, rad, rad);
 }
 public void keyPressed(){ //reverse and forward with pattern using arrows?
